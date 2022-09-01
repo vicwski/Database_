@@ -8,6 +8,7 @@ function setup() {
 
 function draw() {
   background('white')
+
   if (keyDown(LEFT_ARROW)) {
     changePosition(-1, 0)
   } else if (keyDown(RIGHT_ARROW)) {
